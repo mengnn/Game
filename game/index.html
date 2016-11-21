@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/game.css"/>
+
+</head>
+<body>
+<audio src="youxi.mp3" autoplay></audio>
+<header class="top">
+    <h1 class="logo fl">
+        <a href="" class="db">
+            <b class="db">斗牛终极之战lol</b>
+            <span class="db">有你世界不同</span>
+        </a>
+    </h1>
+    <div class="top-r fr oh">
+        <a>新手专区</a>
+        <a>cdky兑换</a>
+        <a>玩家社区</a>
+    </div>
+</header>
+<div data-role="page">
+
+    <!-- 滑动页-->
+    <div>
+        <section class="page01 page pa" >
+            <h2 class="tit ti-9" title="最新动态"></h2>
+            <div class="count">
+                <!-- TODO 轮播-->
+                <div id="myCarousel" class="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- 图片 -->
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <img src="img/1.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/2.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/3.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/4.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+                <!-- TODO 新闻-->
+                <div class="news" id="news1">
+                    <div class="tab-hd pr fix">
+                        <a href="#redian" class="items active">热点</a>
+                        <a href="#xinwen" class="items">新闻</a>
+                        <a href="#gonggao" class="items">公告</a>
+                        <a href="#huodong" class="items">活动</a>
+                        <span href="" class="more pa">更多+</span>
+                    </div>
+                    <div class="tab-db">
+                        <ul class="list active" id="redian">
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="type">热点</a>
+                                <a href="" class="news-tit">牛民同庆共襄盛举 周年庆燃情开启</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="type">热点</a>
+                                <a href="" class="news-tit">周年庆线上直播开启 海量福利揭开狂欢序幕</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="type">热点</a>
+                                <a href="" class="news-tit">全新挑战！轮回关卡即将开启！</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="type">热点</a>
+                                <a href="" class="news-tit">阴影笼罩大地，一切归于无——世界BOSS降临！</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="type">热点</a>
+                                <a href="" class="news-tit">《斗牛98终极之战LOL》跨服社团战玩法详解</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="xinwen">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">新闻</a>
+                                <a href="" class="news-tit">斗牛美女主播拳拳出击 新主播招募好礼不断</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">新闻</a>
+                                <a href="" class="news-tit">牛民同庆共襄盛举 周年庆燃情开启</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">新闻</a>
+                                <a href="" class="news-tit">【斗牛98OL】来自音巢号：原谅我，不与弱者战斗！</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">新闻</a>
+                                <a href="" class="news-tit">周年庆线上直播开启 海量福利揭开狂欢序幕</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">新闻</a>
+                                <a href="" class="news-tit">全新挑战！轮回关卡即将开启！</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="gonggao">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">公告</a>
+                                <a href="" class="news-tit">7月1日开新服时间调整公告</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">公告</a>
+                                <a href="" class="news-tit">关于7月14日世界BOSS服务器异常公告</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">公告</a>
+                                <a href="" class="news-tit">关于直播活动的1w钻石事件澄清</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">公告</a>
+                                <a href="" class="news-tit">关于玩家社区22W钻石事件的澄清及处理公告</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">公告</a>
+                                <a href="" class="news-tit">7月13日凌晨0:00-4:00停服更新公告</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="huodong">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">活动</a>
+                                <a href="" class="news-tit">金币狂欢周</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">活动</a>
+                                <a href="" class="news-tit">格斗家碎片周</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">活动</a>
+                                <a href="" class="news-tit">真ZERO限时降临 单笔充值100%返利</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">活动</a>
+                                <a href="" class="news-tit">周年庆典周</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="type">活动</a>
+                                <a href="" class="news-tit">“天神下凡 必杀抵抗”吉斯魂匣限时开启</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page02 page pa">
+            <h2 class="tit ti-9" title="游戏攻略"></h2>
+            <div class="count">
+                <!-- TODO 轮播-->
+                <div id="myCarousel2" class="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel2" data-slide-to="1"></li>
+                        <li data-target="#myCarousel2" data-slide-to="2"></li>
+                    </ol>
+                    <!-- 图片 -->
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <img src="img/5.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/6.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/7.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel2" data-slide="next">&rsaquo;</a>
+                </div>
+                <!-- TODO 新闻-->
+                <div class="news" id="news3">
+                    <div class="tab-hd pr fix">
+                        <a href="#jingxuan" class="items active">精选</a>
+                        <a href="#xinshou" class="items">新手</a>
+                        <a href="#tongguan" class="items">通关</a>
+                        <a href="#zhenrong" class="items">阵容</a>
+                        <a href="#yingxiong" class="items">英雄</a>
+                        <span href="" class="more pa">更多+</span>
+                    </div>
+                    <div class="tab-db">
+                        <ul class="list active" id="jingxuan">
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="news-tit">限时挑战《斗牛98终极之战OL》轮回关卡详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="news-tit">地狱之歌 《斗牛98终极之战OL》地狱乐队与三BOSS四魂阵容详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="news-tit">无处可藏 《斗牛98终极之战OL》四魂全屏流详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="news-tit">《斗牛98终极之战OL》阵容转型及选择详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/13</span>
+                                <a href="" class="news-tit">八门系列 《斗牛98终极之战OL》女性格斗家队点评解析</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="xinshou">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">【趣漫】《风流拳世》之选美大赛</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">风流格斗家34期：蓝色忧郁-布鲁玛丽</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">【趣漫】《风流拳世》之一句话暴走</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">【连载漫画】牛霸·轮回之争第三十章：震惊</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">风流格斗家》33期：爆裂输出—觉醒莉安娜</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="tongguan">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">《斗牛98终极之战OL》格斗家传记之觉醒通关解析</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">战斗吧!1998！《斗牛98终极之战OL》格斗家传记通关攻略</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">穿越吧！矢吹真吾死亡难度通关攻略</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">影之最强者 《斗牛98终极之战OL》噩梦关卡第二十章通关攻略</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">《斗牛98终极之战OL》怒之铁拳死亡模式通关详解</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="zhenrong">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">地狱之歌 《斗牛98终极之战OL》地狱乐队与三BOSS四魂阵容详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">斗牛98终极之战OL》阵容转型及选择详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">八门系列 《斗牛98终极之战OL》女性格斗家队点评解析</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">八门系列 《斗牛98终极之战OL》韩国队点评解析</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">不吃先手 《斗牛98终极之战OL》八门之全新女队阵容详解</a>
+                            </li>
+                        </ul>
+                        <ul class="list" id="yingxiong">
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">《斗牛98终极之战OL》八门之暴击辅助罗伯特详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">盘点目前竞技场最让人头疼的格斗家</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">厚积薄发《斗牛98终极之战OL》NESTS死忠真ZERO生存反击！</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">踢出一片天罗伯特与板琦百合八门详解</a>
+                            </li>
+                            <li>
+                                <span class="fr">07/14</span>
+                                <a href="" class="news-tit">八门系列 《斗牛98终极之战OL》里地狱乐队点评解析</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page03 page pa">
+            <h2 class="tit ti-9" title="游戏特色"></h2>
+            <div class="count3">
+                <!-- TODO 轮播-->
+                <div id="myCarousel3" class="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel3" data-slide-to="1"></li>
+                        <li data-target="#myCarousel3" data-slide-to="2"></li>
+                    </ol>
+                    <!-- 图片 -->
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <img src="img/8.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/9.jpg" alt=""/>
+                        </div>
+                        <div class="item">
+                            <img src="img/10.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel3" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel3" data-slide="next">&rsaquo;</a>
+                </div>
+            </div>
+        </section>
+        <section class="page04 page pa">
+            <h2 class="tit ti-9" title="映画中心"></h2>
+            <div class="count4">
+                <div class="visual">
+                    <a href=""><img src="img/painting.jpg" alt=""/></a>
+                    <a href=""><img src="img/video.jpg" alt=""/></a>
+                    <a href=""><img src="img/paper.jpg" alt=""/></a>
+                </div>
+            </div>
+            <div class="video db">
+                <a href="">
+                    <img src="img/video2.jpg" alt=""/>
+                </a>
+            </div>
+        </section>
+        <section class="page05 contact-wrap pr">
+            <div class="parten oh pr">
+                <div class="inner">
+                    <ul class="contact">
+                        <li class="ft01">
+                            <a href="">
+                                <b>游戏下载</b>
+                                <span>游戏最新版本下载</span>
+                            </a>
+                        </li>
+                        <li class="ft02">
+                            <a href="">
+                                <b>官方微信</b>
+                                <span>游戏最新版本下载</span>
+                            </a>
+                        </li>
+                        <li class="ft03">
+                            <a href="">
+                                <b>联系客服</b>
+                                <span>游戏最新版本下载</span>
+                            </a>
+                        </li>
+                        <li class="ft04">
+                            <a href="">
+                                <b>自助服务</b>
+                                <span>游戏最新版本下载</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="qq-wrap">
+                        <p>
+                            <span>QQ1群:201448385</span>
+                            <span>QQ2群:423294077</span>
+                            <span>QQ2群:423294077</span>
+                            <span>QQ2群:423294077</span>
+                        </p>
+                        <p>
+                            <span>QQ1群:201448385</span>
+                            <span>QQ2群:423294077</span>
+                            <span>QQ2群:423294077</span>
+                            <span>QQ2群:423294077</span>
+                        </p>
+                    </div>
+                    <div class="media">
+                        <span class="db media-tit">合作媒体</span>
+                        <ul>
+                            <li><a href=""><img src="img/parten01.png"/></a></li>
+                            <li><a href=""><img src="img/parten02.png"/></a></li>
+                            <li><a href=""><img src="img/parten03.png"/></a></li>
+                            <li><a href=""><img src="img/parten04.png"/></a></li>
+                            <li><a href=""><img src="img/parten05.png"/></a></li>
+                            <li><a href=""><img src="img/parten06.png"/></a></li>
+                            <li><a href=""><img src="img/parten07.png"/></a></li>
+                            <li><a href=""><img src="img/parten08.png"/></a></li>
+                            <li><a href=""><img src="img/parten09.png"/></a></li>
+                            <li><a href=""><img src="img/parten10.png"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="foot">
+                <div class="container">
+                    <div class="foot-cpright">
+                        <div class="f-left foot-logo">
+                            <a href="" class="foot-logos-game">腾讯互动娱乐</a>
+                        </div>
+                        <ul class="f-right foot-links">
+                            <li>
+                                <a href="">腾讯互动娱乐</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">服务条款</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">广告服务</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">腾讯游戏招聘</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">腾讯游戏客服</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">游戏活动</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">游戏地图</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">商务合作</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="http://www.qq.com/"">腾讯网</a>
+                                <span class="foot-sprt">|</span>
+                                <a href="">网站导航</a>
+                            </li>
+                            <li class="f-right">
+                                <a href="">腾讯公司版权所有</a>
+                            </li>
+                            <li>COPYRIGHT&#169;1998 - 2015 TENCENT. ALL RIGHTS RESERVED.</li>
+                            <li>&#169;SNK PLAYMORE CORPORATION ALL RIGHTS RESERVED.</li>
+                            <li>
+                                <a href="">文网游备字（2015）M-RPG 1140号丨新出网证（粤）字010号</a>丨
+                                <a href="">粤网文号：[2014]0633-233号</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- TODO 下载-->
+    <div class="download">
+        <a href="" class="android"></a>
+        <a href="" class="app"></a>
+    </div>
+    <!-- TODO 右边菜单-->
+    <nav class="menu">
+        <a href="#" class="m0">最新动态</a>
+        <a href="#" class="m1">游戏攻略</a>
+        <a href="#" class="m2">游戏特色</a>
+        <a href="#" class="m3">映画中心</a>
+        <a href="#" class="m4">关于我们</a>
+    </nav>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/youxi.js"></script>
+<script src="js/angular.js"></script>
+</body>
+</html>
